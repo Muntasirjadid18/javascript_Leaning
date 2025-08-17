@@ -13,3 +13,9 @@ for(let k = 10; k >= 0; k--){
 for(j=20;j>=11;j--){
     console.log(j);
 }
+//in while loop
+let w = 10;
+while(w>=0){{
+    console.log(w);
+    w--;
+}}
