@@ -13,8 +13,16 @@ const college = {
     class : ['11','12'],
     events : ['Science Fair','Bijoy Dibos','21 Feb'],
     unique :{
-        color: 'blue'
+        color: 'blue',
+        result :{
+            gpa : 5,
+            merit :'top'
+        }
     }
 }
-console.log(college.name)
+delete college.class
+console.log(college)
 console.log(college.unique.color)
+console.log(college.unique.result.merit)
+college.events[1] = 'Martyr days'
+console.log(college.events[1])
