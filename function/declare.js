@@ -6,7 +6,7 @@ function fanoffkor()
     console.log("walk towards the switch");
     console.log("switch off the fan");
 } 
-//function call 
+//call the function 
 fanoffkor();
 function chakhabo()
 {
