@@ -6,6 +6,19 @@ function isEven(number){
         return false;
     }
 }
+
+
+function isOdd(number){
+    if(number%2 === 1){
+       return true;
+    }
+    else{
+        return false;
+    }
+}
+
 console.log(isEven(5));
 const result = isEven(10);
 console.log("Result : ", result);
+
+console.log(isOdd(5));
