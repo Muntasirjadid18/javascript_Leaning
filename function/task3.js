@@ -1,9 +1,9 @@
 // Write a function called make_avg() which will take an array of integers and 
 // the size of that array and return the average of those values.
-function make_avg(numbs){
+function make_avg(n){
     let number ;
     let sum = 0;
-    for(number of numbs){
+    for(number of n){
         console.log(number);
          sum = sum + number;
          
